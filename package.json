@@ -1,0 +1,44 @@
+{
+  "name": "@tomchochola/prettier-config",
+  "description": "prettier config",
+  "keywords": [
+    "tomchochola",
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/tomchochola/prettier-config",
+  "bugs": {
+    "email": "chocholatom1997@gmail.com",
+    "url": "https://github.com/tomchochola/prettier-config/issues"
+  },
+  "license": "SEE LICENSE IN ./LICENSE.md",
+  "author": {
+    "email": "chocholatom1997@gmail.com",
+    "name": "Tomáš Chochola",
+    "url": "https://github.com/tomchochola"
+  },
+  "contributors": [
+    {
+      "email": "chocholatom1997@gmail.com",
+      "name": "Tomáš Chochola",
+      "url": "https://github.com/tomchochola"
+    }
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/tomchochola"
+  },
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomchochola/prettier-config.git"
+  },
+  "dependencies": {
+    "@prettier/plugin-xml": "latest",
+    "prettier": "latest"
+  },
+  "devDependencies": {
+    "@tomchochola/eslint-config": "github:tomchochola/eslint-config"
+  },
+  "private": true,
+  "type": "module"
+}
