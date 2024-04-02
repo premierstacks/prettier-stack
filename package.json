@@ -33,8 +33,10 @@
     "url": "https://github.com/tomchochola/prettier-config.git"
   },
   "dependencies": {
-    "@prettier/plugin-xml": "latest",
-    "prettier": "latest"
+    "@prettier/plugin-pug": "^3.0.0",
+    "@prettier/plugin-ruby": "^4.0.4",
+    "@prettier/plugin-xml": "^3.3.1",
+    "prettier": "^3.2.5"
   },
   "devDependencies": {
     "@tomchochola/eslint-config": "github:tomchochola/eslint-config"
