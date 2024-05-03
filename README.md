@@ -1,4 +1,4 @@
-# [Prettier Config](https://github.com/tomchochola/prettier-config) by [Tomáš Chochola](https://github.com/tomchochola)
+# [Prettier Config](https://github.com/premierstacks/prettier-config) by [Tomáš Chochola](https://github.com/tomchochola)
 
 Streamline your code formatting with our Prettier Config, offering a premium collection for consistent and quality coding across projects. Ideal for developers valuing precision and uniformity.
 
@@ -78,7 +78,7 @@ Secure your license at [Tomáš Chochola's GitHub Sponsors page](https://github.
 ### 2️⃣ Package Installation
 
 ```shell
-npm install --save-dev github:tomchochola/prettier-config
+npm install --save-dev github:premierstacks/prettier-config
 ```
 
 ### 3️⃣ Configuration
@@ -86,7 +86,7 @@ npm install --save-dev github:tomchochola/prettier-config
 Initialize your `prettier.config.js`:
 
 ```js
-import { configs } from '@tomchochola/prettier-config';
+import { configs } from '@premierstacks/prettier-config';
 
 export default configs.recommended();
 ```
