@@ -33,10 +33,10 @@
     "url": "https://github.com/premierstacks/prettier-config.git"
   },
   "dependencies": {
-    "@prettier/plugin-pug": "^3.0.0",
-    "@prettier/plugin-ruby": "^4.0.4",
-    "@prettier/plugin-xml": "^3.3.1",
-    "prettier": "^3.2.5"
+    "@prettier/plugin-pug": "^3.0",
+    "@prettier/plugin-ruby": "^4.0",
+    "@prettier/plugin-xml": "^3.4",
+    "prettier": "^3.2"
   },
   "devDependencies": {
     "@premierstacks/eslint-config": "github:premierstacks/eslint-config"
