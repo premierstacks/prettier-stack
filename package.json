@@ -1,15 +1,15 @@
 {
-  "name": "@premierstacks/prettier-config",
-  "description": "prettier config",
+  "name": "@premierstacks/prettier-stack",
+  "description": "prettier stack",
   "keywords": [
     "premierstacks",
-    "prettier-config",
+    "prettier-stack",
     "tomchochola"
   ],
-  "homepage": "https://github.com/premierstacks/prettier-config",
+  "homepage": "https://github.com/premierstacks/prettier-stack",
   "bugs": {
     "email": "chocholatom1997@gmail.com",
-    "url": "https://github.com/premierstacks/prettier-config/issues"
+    "url": "https://github.com/premierstacks/prettier-stack/issues"
   },
   "license": "SEE LICENSE IN ./LICENSE.md",
   "author": {
@@ -31,7 +31,7 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/premierstacks/prettier-config.git"
+    "url": "https://github.com/premierstacks/prettier-stack.git"
   },
   "dependencies": {
     "@prettier/plugin-pug": "^3.0",
@@ -40,7 +40,7 @@
     "prettier": "^3.2"
   },
   "devDependencies": {
-    "@premierstacks/eslint-config": "github:premierstacks/eslint-config"
+    "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack"
   },
   "private": true,
   "type": "module"

@@ -1,20 +1,20 @@
-# [Prettier Config](https://github.com/premierstacks/prettier-config) by [Tomáš Chochola](https://github.com/tomchochola)
+# [Prettier Stack](https://github.com/premierstacks/prettier-stack) by [Tomáš Chochola](https://github.com/tomchochola)
 
-Streamline your code formatting with our Prettier Config, offering a premium collection for consistent and quality coding across projects. Ideal for developers valuing precision and uniformity.
+Streamline your code formatting with our Prettier Stack, offering a premium collection for consistent and quality coding across projects. Ideal for developers valuing precision and uniformity.
 
-Our Prettier Config provides a premium set of configurations, integrating the latest enhancements and official plugins to ensure a high level of consistency and quality in your code. Designed for rapid integration, it allows for efficient adoption of a consistent coding style, saving development time. This configuration is the result of extensive research into coding styles and best practices, ensuring that your projects adhere to high-quality formatting standards. Continuously updated to stay abreast of Prettier's advancements, our config offers a dependable and uniform formatting solution, enhancing the readability and maintainability of your code, and signifying a commitment to excellence in code quality.
+Our Prettier Stack provides a premium set of configurations, integrating the latest enhancements and official plugins to ensure a high level of consistency and quality in your code. Designed for rapid integration, it allows for efficient adoption of a consistent coding style, saving development time. This configuration is the result of extensive research into coding styles and best practices, ensuring that your projects adhere to high-quality formatting standards. Continuously updated to stay abreast of Prettier's advancements, our config offers a dependable and uniform formatting solution, enhancing the readability and maintainability of your code, and signifying a commitment to excellence in code quality.
 
-## 👌 Top Reasons to Opt for Our Premium Prettier Config
+## 👌 Top Reasons to Opt for Our Premium Prettier Stack
 
-By incorporating our Premium Prettier Config into your workflow, you not only streamline your formatting process but also ensure that your projects stand out for their quality and consistency, setting a new benchmark for code excellence.
+By incorporating our Premium Prettier Stack into your workflow, you not only streamline your formatting process but also ensure that your projects stand out for their quality and consistency, setting a new benchmark for code excellence.
 
 ### ⏱️ Setup in Just 5 Minutes
 
-Instantly elevate your code formatting with our Prettier Config, designed for rapid and seamless integration. This setup enables you to adopt a consistent coding style across your projects efficiently, saving you valuable time for development.
+Instantly elevate your code formatting with our Prettier Stack, designed for rapid and seamless integration. This setup enables you to adopt a consistent coding style across your projects efficiently, saving you valuable time for development.
 
 ### 🕒 Hundreds of Hours of Research, So You Don't Have To
 
-Our Prettier Config encapsulates extensive research and a deep understanding of coding styles and best practices. By selecting our configuration, you benefit from a wealth of knowledge, ensuring that your projects adhere to high-quality formatting standards without the need for exhaustive research.
+Our Prettier Stack encapsulates extensive research and a deep understanding of coding styles and best practices. By selecting our configuration, you benefit from a wealth of knowledge, ensuring that your projects adhere to high-quality formatting standards without the need for exhaustive research.
 
 ### 🎚️ Minimal Setup, Maximum Consistency
 
@@ -22,19 +22,19 @@ Achieve consistent and high-quality code formatting with minimal setup. Our stre
 
 ### 📘 Zero Expertise Required
 
-Our Prettier Config is designed to be user-friendly, making it accessible to developers of all skill levels. Whether you are new to Prettier or an experienced user, our configuration enables you to apply industry-leading formatting standards to your projects effortlessly.
+Our Prettier Stack is designed to be user-friendly, making it accessible to developers of all skill levels. Whether you are new to Prettier or an experienced user, our configuration enables you to apply industry-leading formatting standards to your projects effortlessly.
 
 ### 🔄 Continuously Updated
 
-Keep your projects up-to-date with the latest advancements in code formatting. Our Prettier Config is regularly updated to include the most recent Prettier enhancements and official plugins, ensuring that your codebase remains modern and adheres to evolving standards.
+Keep your projects up-to-date with the latest advancements in code formatting. Our Prettier Stack is regularly updated to include the most recent Prettier enhancements and official plugins, ensuring that your codebase remains modern and adheres to evolving standards.
 
 ### ⚔️ Battle-Tested Reliability
 
-Rely on a Prettier Config that has been rigorously tested across a diverse range of projects and environments. Our configuration delivers dependable and uniform formatting results, enhancing the readability and maintainability of your code.
+Rely on a Prettier Stack that has been rigorously tested across a diverse range of projects and environments. Our configuration delivers dependable and uniform formatting results, enhancing the readability and maintainability of your code.
 
 ### 🏆 Premier Quality Guarantee
 
-Choosing our Prettier Config signifies your commitment to excellence in code quality. This tool is more than just a set of formatting rules; it represents a comprehensive approach to maintaining high standards in your codebase, reflecting professionalism and attention to detail.
+Choosing our Prettier Stack signifies your commitment to excellence in code quality. This tool is more than just a set of formatting rules; it represents a comprehensive approach to maintaining high standards in your codebase, reflecting professionalism and attention to detail.
 
 ## 🛡️ License & Usage
 
@@ -78,7 +78,7 @@ Secure your license at [Tomáš Chochola's GitHub Sponsors page](https://github.
 ### 2️⃣ Package Installation
 
 ```shell
-npm install --save-dev github:premierstacks/prettier-config
+npm install --save-dev github:premierstacks/prettier-stack
 ```
 
 ### 3️⃣ Configuration
@@ -86,7 +86,7 @@ npm install --save-dev github:premierstacks/prettier-config
 Initialize your `prettier.config.js`:
 
 ```js
-import { configs } from '@premierstacks/prettier-config';
+import { configs } from '@premierstacks/prettier-stack';
 
 export default configs.recommended();
 ```
