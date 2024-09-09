@@ -17,7 +17,7 @@
  * - Web: https://premierstacks.com
  */
 
-export default function () {
+function recommended() {
   return {
     singleQuote: true,
     plugins: ['@prettier/plugin-xml', '@prettier/plugin-pug'],
@@ -25,3 +25,5 @@ export default function () {
     xmlWhitespaceSensitivity: 'ignore',
   };
 }
+
+export { recommended };
