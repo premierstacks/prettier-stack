@@ -17,6 +17,6 @@
  * - Web: https://premierstacks.com
  */
 
-import { configs } from './src/index.js';
+import { recommended } from './src/index.js';
 
-export default configs.recommended();
+export default recommended();
