@@ -1,6 +1,6 @@
 {
   "name": "@premierstacks/prettier-stack",
-  "description": "prettier stack",
+  "description": "premierstacks prettier stack",
   "keywords": [
     "premierstacks",
     "prettier-stack",
@@ -29,6 +29,8 @@
     "url": "https://github.com/sponsors/tomchochola"
   },
   "main": "./src/index.js",
+  "module": "./src/index.js",
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/premierstacks/prettier-stack.git"

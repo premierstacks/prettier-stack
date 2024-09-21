@@ -1,40 +1,42 @@
 # [Prettier Stack](https://github.com/premierstacks/prettier-stack) by [Tomáš Chochola](https://github.com/tomchochola)
 
-Streamline your code formatting with our Prettier Stack, offering a premium collection for consistent and quality coding across projects. Ideal for developers valuing precision and uniformity.
+A premium, preconfigured Prettier stack designed to ensure consistent and high-quality code formatting across projects. Ideal for developers seeking precision, readability, and uniformity.
 
-Our Prettier Stack provides a premium set of configurations, integrating the latest enhancements and official plugins to ensure a high level of consistency and quality in your code. Designed for rapid integration, it allows for efficient adoption of a consistent coding style, saving development time. This configuration is the result of extensive research into coding styles and best practices, ensuring that your projects adhere to high-quality formatting standards. Continuously updated to stay abreast of Prettier's advancements, our config offers a dependable and uniform formatting solution, enhancing the readability and maintainability of your code, and signifying a commitment to excellence in code quality.
+## 💡 Idea Behind Premierstacks
 
-## 👌 Top Reasons to Opt for Our Premium Prettier Stack
+Premierstacks is a comprehensive solution designed to cover both the development environment and the runtime provisioning/release process to production servers.
 
-By incorporating our Premium Prettier Stack into your workflow, you not only streamline your formatting process but also ensure that your projects stand out for their quality and consistency, setting a new benchmark for code excellence.
+It includes everything from basic project structures to configurations for unit tests, static analysis, linters, automatic code fixers, and compilation or transpilation. Premierstacks ensures that your entire workflow, from development to production deployment, operates smoothly.
 
-### ⏱️ Setup in Just 5 Minutes
+With a single license, you gain access to multiple libraries and guides that allow you to focus on business logic while Premierstacks handles both development and runtime environments.
 
-Instantly elevate your code formatting with our Prettier Stack, designed for rapid and seamless integration. This setup enables you to adopt a consistent coding style across your projects efficiently, saving you valuable time for development.
+This software is proprietary and designed for serious developers who value precision and professionalism. Ensure compliance by securing your license today.
 
-### 🕒 Hundreds of Hours of Research, So You Don't Have To
+## ⚡ Why Choose This Solution?
 
-Our Prettier Stack encapsulates extensive research and a deep understanding of coding styles and best practices. By selecting our configuration, you benefit from a wealth of knowledge, ensuring that your projects adhere to high-quality formatting standards without the need for exhaustive research.
+- **Premier Quality**
 
-### 🎚️ Minimal Setup, Maximum Consistency
+  Crafted for developers who demand top-tier formatting standards and precision.
 
-Achieve consistent and high-quality code formatting with minimal setup. Our streamlined configuration approach simplifies the adoption process, allowing you to maintain a uniform coding style across various projects and teams with ease.
+- **Expertly Crafted**
 
-### 📘 Zero Expertise Required
+  Designed based on deep research into code formatting best practices.
 
-Our Prettier Stack is designed to be user-friendly, making it accessible to developers of all skill levels. Whether you are new to Prettier or an experienced user, our configuration enables you to apply industry-leading formatting standards to your projects effortlessly.
+- **Production-Ready**
 
-### 🔄 Continuously Updated
+  Tested in real-world scenarios to ensure compatibility and consistent results.
 
-Keep your projects up-to-date with the latest advancements in code formatting. Our Prettier Stack is regularly updated to include the most recent Prettier enhancements and official plugins, ensuring that your codebase remains modern and adheres to evolving standards.
+- **Efficient Setup**
 
-### ⚔️ Battle-Tested Reliability
+  Integrates quickly into projects, offering immediate improvements to code style.
 
-Rely on a Prettier Stack that has been rigorously tested across a diverse range of projects and environments. Our configuration delivers dependable and uniform formatting results, enhancing the readability and maintainability of your code.
+- **Regular Updates**
 
-### 🏆 Premier Quality Guarantee
+  Stay aligned with the latest Prettier features, plugins, and formatting standards.
 
-Choosing our Prettier Stack signifies your commitment to excellence in code quality. This tool is more than just a set of formatting rules; it represents a comprehensive approach to maintaining high standards in your codebase, reflecting professionalism and attention to detail.
+- **Versatile**
+
+  Supports multiple languages and environments with official Prettier plugins.
 
 ## 🛡️ License & Usage
 
@@ -42,97 +44,122 @@ Choosing our Prettier Stack signifies your commitment to excellence in code qual
 
 [![License](https://img.shields.io/badge/License-©_Proprietary-blue.svg)](LICENSE.md)
 
-This software is the exclusive property of Tomáš Chochola, protected by copyright laws.<br />
-Although the source code may be accessible, it is not free for use without a valid license.<br />
-A valid license, obtainable through proper channels, is required for any software use.<br />
-For licensing or inquiries, please contact Tomáš Chochola or refer to the GitHub Sponsors page.
+This software is proprietary property of Tomáš Chochola and protected by copyright laws.<br />
+A valid license is required for any use or manipulation of the software or source code.<br />
+The full license terms are detailed in the LICENSE.md file within the source code repository.
 
-The full license terms are detailed in the LICENSE.md file within the source code repository.<br />
-The terms are subject to changes. Users are encouraged to review them periodically.
+One license grants you access to all Premierstacks products, ensuring a unified solution for your development and production needs.
 
-**Email:** <chocholatom1997@gmail.com><br />
-**Personal GitHub:** [https://github.com/tomchochola](https://github.com/tomchochola)<br />
-**Premierstacks GitHub:** [https://github.com/premierstacks](https://github.com/premierstacks)<br />
-**Sponsor & License:** [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)<br />
-**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)
+**Purchase a license here**: [GitHub Sponsors](https://github.com/sponsors/tomchochola)
 
-### Acquiring a License
+**See full terms in**: [LICENSE.md](LICENSE.md)
 
-To use this software, you must obtain a valid license available through a monthly subscription on the [Sponsor & License](https://github.com/sponsors/tomchochola).<br />
-This platform has been chosen for its reliability and ease of use, providing a secure and straightforward way to manage your subscription.
+## 📦 Module exports
 
-## 🖍️ Highlights
+Here are the available module exports and their use cases:
 
-- **Latest Prettier Enhancements**: Stay updated with the most recent Prettier features and improvements.
-- **Inclusive of Official Plugins**: Comes pre-installed and preconfigured with all stable official Prettier plugins, providing extensive support for a wide range of languages and frameworks.
-- **Streamlined Configuration**: Simplifies the setup process with a flat config system, making it more accessible and easy to manage.
-- **Consistency Across Projects**: Enforces a uniform coding style across different environments, ensuring consistency and readability.
-- **Quality and Precision**: Adopts best practices for code formatting, contributing to the overall quality and maintainability of your codebase.
+```js
+import * as m from '@premierstacks/prettier-stack';
 
-## 🎨 Available Configuration Presets
+// basic recommended configuration for every project
+recommended(): object;
+```
 
-Choose from a variety of preconfigured presets:
+## 🧩 Templates
 
-- **recommended**: A default configuration that sets a high standard for code formatting, including rules for single quotes, XML attribute quoting, and whitespace sensitivity, along with support for XML and Pug through official plugins.
+Explore the predefined templates for various configurations in the `/templates` directory. These templates provide quick-start setups for different environments.
 
-## 🎬 Get Started
+- **[/templates/recommended.config.js](/templates/recommended.config.js)**
 
-### 1️⃣ License Acquisition
+  Recommended configuration for browser-based TypeScript projects with React.
 
-Secure your license at [Sponsor & License](https://github.com/sponsors/tomchochola).
+## 🚀 Getting Started
 
-### 2️⃣ Package Installation
+1️⃣ **Review the documentation and license**
 
-```shell
+Ensure this package fits your needs and that you agree with the terms.
+
+2️⃣ **Purchase a license**
+
+Obtain a valid license through [GitHub Sponsors](https://github.com/sponsors/tomchochola).
+
+3️⃣ **Install the package**
+
+Install using npm:
+
+```bash
 npm install --save-dev github:premierstacks/prettier-stack
 ```
 
-### 3️⃣ Configuration
+4️⃣ **Select a template**
 
-Initialize your `prettier.config.js`:
+Choose the predefined configuration template from the `/templates` directory and copy it into your project as `prettier.config.js`:
 
-```js
-import { configs } from '@premierstacks/prettier-stack';
-
-export default configs.recommended();
+```bash
+cp ./node_modules/@premierstacks/prettier-stack/templates/recommended.config.js ./prettier.config.js
 ```
 
-### 4️⃣ Attribution
+5️⃣ **CLI**
 
-Please ensure to manually give credits to the authors in your project documentation or wherever appropriate, as per the license agreement.
+Execute commands:
 
-### 5️⃣ Usage
-
-```shell
-# To fix issues
+```bash
+# To format files in your project
 ./node_modules/.bin/prettier -w .
 
-# To check for issues
+# To check for unformatted code
 ./node_modules/.bin/prettier -c .
 ```
 
-## The Author: Tomáš Chochola
+## 👤 The Author: Tomáš Chochola
 
-_Elite developer crafting exclusive, enterprise-grade software, professional packages, and premium templates to elevate your digital landscape._
+Tomáš Chochola is a leading software developer known for delivering precision-crafted, enterprise-grade solutions. With deep expertise in multiple cutting-edge technologies, Tomáš focuses on ensuring top-tier code quality and efficiency for every project.
 
-Tomáš Chochola is the creator and project visionary behind this project.<br />
-His expertise and innovative approach have been instrumental in shaping the project's direction and ensuring its success.<br />
-Tomáš Chochola's commitment to excellence and his passion for development are reflected in the quality and reliability of the project.
-
-**E-mail**: <chocholatom1997@gmail.com><br />
+**Email**: <chocholatom1997@gmail.com><br />
+**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)<br />
 **Personal GitHub**: [https://github.com/tomchochola](https://github.com/tomchochola)<br />
 **Premierstacks GitHub**: [https://github.com/premierstacks](https://github.com/premierstacks)<br />
-**Sponsor & License**: [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)<br />
-**Premierstacks website**: [https://premierstacks.com](https://premierstacks.com)
+**GitHub Sponsors**: [https://github.com/sponsors/tomchochola](https://github.com/sponsors/tomchochola)
 
-## 🌐 Discover Tomáš Chochola's GitHub Universe
+His areas of specialization include:
 
-Explore the boundless creativity and innovation in [Personal GitHub](https://github.com/tomchochola). As the epicenter of my digital creations, it offers an extensive collection of avant-garde software packages, refined libraries, and polished templates, meticulously crafted to enhance your development journey. Immerse yourself in a world where efficiency and elegance converge, and elevate your projects with tools that redefine excellence.
+- DevOps and AWS
+- PHP and Laravel
+- Secure coding practices
+- Code style and best practices
+- Helper functions and libraries
+- TypeScript, React, and Webpack
+- Reusable templates and configuration stacks
+- Development on Windows 11 and Ubuntu 22/24 (WSL2)
+- ESLint, Prettier, PHP CS Fixer, PostCSS, and Stylelint
 
-## 💰 Empower Innovation: Support and Subscribe
+## 💼 Hire Me
 
-Your support transcends mere contributions; it's the lifeblood of innovation and growth. By subscribing for premium access or becoming a sponsor, you directly contribute to the advancement of high-caliber software. Embrace the opportunity to be part of a visionary journey by visiting my [Sponsor & License](https://github.com/sponsors/tomchochola).
+Whether you need short-term code assistance, in-depth analysis, or help integrating premium packages, I'm available for collaboration. Let's take your project to the next level.
 
-## 🤝 Join Forces with Tomáš Chochola
+You can also support my work by becoming a sponsor through [GitHub Sponsors](https://github.com/sponsors/tomchochola).
 
-Embark on a collaborative venture with a developer whose passion for perfection knows no bounds. Whether it's for groundbreaking startups, global enterprises, or transformative government projects, my arsenal of skills is at your command. Let's merge visions and craftsmanship to forge software that stands a class apart. Connect with me at <chocholatom1997@gmail.com> for collaborations that transcend conventional boundaries.
+If you're interested in hiring me for any of the above or for solving IT issues, feel free to reach out. I'm open to collaboration, whether it's for new packages, ongoing projects, or quick IT fixes.
+
+## 🌳 Project Structure (Tree)
+
+Below is an example of the project structure you will receive upon purchasing the Prettier Stack. This allows you to see what’s included and know exactly what you are paying for:
+
+```sh
+.
+├── AUTHORS.md
+├── LICENSE.md
+├── Makefile
+├── README.md
+├── eslint.config.js
+├── package.json
+├── prettier.config.js
+├── src
+│   ├── configs
+│   │   └── recommended.js
+│   └── index.js
+└── templates
+    └── recommended.config.js
+
+3 directories, 10 files
+```
