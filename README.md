@@ -152,6 +152,10 @@ The following is a breakdown of the folder and file structure within this reposi
 
 ```bash
 .
+├── .editorconfig
+├── .gitattributes
+├── .gitignore
+├── .prettierignore
 ├── AUTHORS.md
 ├── LICENSE.md
 ├── Makefile
@@ -166,5 +170,5 @@ The following is a breakdown of the folder and file structure within this reposi
 └── templates
     └── recommended.template
 
-3 directories, 10 files
+3 directories, 14 files
 ```
