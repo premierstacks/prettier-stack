@@ -127,17 +127,17 @@ The following is a breakdown of the folder and file structure within this reposi
 
 ```bash
 .
+├── AUTHORS.md
 ├── .editorconfig
+├── eslint.config.js
 ├── .gitattributes
 ├── .gitignore
-├── .prettierignore
-├── AUTHORS.md
-├── LICENSE.md
+├── LICENSE
 ├── Makefile
-├── README.md
-├── eslint.config.js
 ├── package.json
 ├── prettier.config.js
+├── .prettierignore
+├── README.md
 ├── src
 │   ├── configs
 │   │   └── recommended.js
@@ -145,5 +145,5 @@ The following is a breakdown of the folder and file structure within this reposi
 └── templates
     └── recommended.template
 
-3 directories, 14 files
+4 directories, 14 files
 ```
