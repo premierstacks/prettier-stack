@@ -71,14 +71,14 @@ limitations under the License.
 Here are the available module exports:
 
 ```js
-import { recommended } from '@premierstacks/prettier-stack';
+import { createPrettierConfigBase } from '@premierstacks/prettier-stack';
 ```
 
 ## Templates
 
 Explore the predefined templates for various configurations in the [/templates](/templates) directory. These templates provide quick-start setups for different environments.
 
-**[/templates/recommended.template](/templates/recommended.template)**<br />
+**[/templates/base.template](/templates/base.template)**<br />
 
 ## Getting Started
 
@@ -91,7 +91,7 @@ Ensure this package fits your needs and that you agree with the terms.
 Install using npm:
 
 ```bash
-npm install --save-dev github:premierstacks/prettier-stack
+npm install --save-dev github:premierstacks/prettier-stack#semver:^2.0
 ```
 
 **3. Select a template**
@@ -101,7 +101,7 @@ Choose one of the predefined configuration templates from the [/templates](/temp
 Use the `cp` command to copy it into your project as `/prettier.config.js`:
 
 ```bash
-cp ./node_modules/@premierstacks/prettier-stack/templates/recommended.template ./prettier.config.js
+cp ./node_modules/@premierstacks/prettier-stack/templates/base.template ./prettier.config.js
 ```
 
 **4. CLI**

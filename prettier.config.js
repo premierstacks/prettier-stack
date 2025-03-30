@@ -11,6 +11,6 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-import { recommended } from './src/index.js';
+import { createPrettierConfigBase } from './src/index.js';
 
-export default recommended();
+export default createPrettierConfigBase();

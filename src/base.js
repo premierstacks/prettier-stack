@@ -11,7 +11,7 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export function recommended() {
+export function createPrettierConfigBase() {
   return {
     singleQuote: true,
     plugins: ['@prettier/plugin-pug', '@prettier/plugin-ruby', '@prettier/plugin-xml'],
