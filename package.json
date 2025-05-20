@@ -31,13 +31,13 @@
   },
   "repository": "github:premierstacks/prettier-stack",
   "dependencies": {
-    "@prettier/plugin-pug": "^3.3.0",
+    "@prettier/plugin-pug": "^3.4.0",
     "@prettier/plugin-ruby": "^4.0.4",
     "@prettier/plugin-xml": "^3.4.1",
     "prettier": "^3.5.3"
   },
   "devDependencies": {
-    "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack#semver:^3.0"
+    "@premierstacks/eslint-stack": "github:premierstacks/eslint-stack#main"
   },
   "type": "module",
   "sideEffects": false,
