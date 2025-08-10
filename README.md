@@ -69,7 +69,7 @@ By protecting the core quality and unity of Premierstacks, this license ensures 
 Here are the available module exports:
 
 ```js
-import { createPrettierConfigBase } from '@premierstacks/prettier-stack';
+import { PrettierStack } from '@premierstacks/prettier-stack';
 ```
 
 ## Templates
@@ -77,6 +77,7 @@ import { createPrettierConfigBase } from '@premierstacks/prettier-stack';
 Explore the predefined templates for various configurations in the [/templates](/templates) directory. These templates provide quick-start setups for different environments.
 
 **[/templates/base.template](/templates/base.template)**<br />
+**[/templates/full.template](/templates/full.template)**<br />
 
 ## Getting Started
 
@@ -100,6 +101,8 @@ Use the `cp` command to copy it into your project as `/prettier.config.js`:
 
 ```bash
 cp ./node_modules/@premierstacks/prettier-stack/templates/base.template ./prettier.config.js
+# or
+cp ./node_modules/@premierstacks/prettier-stack/templates/full.template ./prettier.config.js
 ```
 
 **4. CLI**

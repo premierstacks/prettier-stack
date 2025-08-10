@@ -11,11 +11,44 @@
  * @see {@link https://github.com/sponsors/tomchochola} GitHub Sponsors
  */
 
-export function createPrettierConfigBase() {
+export function createPrettierConfig() {
   return {
     singleQuote: true,
-    plugins: ['@prettier/plugin-pug', '@prettier/plugin-ruby', '@prettier/plugin-xml'],
+    plugins: [],
+  };
+}
+
+export function withPluginPug(config, options = {}, override = {}) {
+  // eslint-disable-next-line no-empty-pattern
+  const {} = options;
+
+  return {
+    ...config,
+    plugins: [...config.plugins, '@prettier/plugin-pug'],
+    ...override,
+  };
+}
+
+export function withPluginRuby(config, options = {}, override = {}) {
+  // eslint-disable-next-line no-empty-pattern
+  const {} = options;
+
+  return {
+    ...config,
+    plugins: [...config.plugins, '@prettier/plugin-ruby'],
+    ...override,
+  };
+}
+
+export function withPluginXml(config, options = {}, override = {}) {
+  // eslint-disable-next-line no-empty-pattern
+  const {} = options;
+
+  return {
+    ...config,
+    plugins: [...config.plugins, '@prettier/plugin-xml'],
     xmlQuoteAttributes: 'double',
     xmlWhitespaceSensitivity: 'ignore',
+    ...override,
   };
 }

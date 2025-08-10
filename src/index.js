@@ -12,3 +12,5 @@
  */
 
 export * from './base.js';
+export * from './builder.js';
+export * as PrettierStackPresets from './presets.js';
