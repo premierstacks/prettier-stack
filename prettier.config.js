@@ -14,4 +14,9 @@
 import { PrettierStack } from './src/index.js';
 
 // eslint-disable-next-line no-restricted-exports
-export default PrettierStack.Presets.base().build();
+export default PrettierStack.create()
+  .base()
+  .pug()
+  .ruby()
+  .xml()
+  .build();

@@ -76,8 +76,8 @@ import { PrettierStack } from '@premierstacks/prettier-stack';
 
 Explore the predefined templates for various configurations in the [/templates](/templates) directory. These templates provide quick-start setups for different environments.
 
-**[/templates/base.template](/templates/base.template)**<br />
-**[/templates/full.template](/templates/full.template)**<br />
+**[/templates/base.js](/templates/base.js)**<br />
+**[/templates/full.js](/templates/full.js)**<br />
 
 ## Getting Started
 
@@ -100,9 +100,9 @@ Choose one of the predefined configuration templates from the [/templates](/temp
 Use the `cp` command to copy it into your project as `/prettier.config.js`:
 
 ```bash
-cp ./node_modules/@premierstacks/prettier-stack/templates/base.template ./prettier.config.js
+cp ./node_modules/@premierstacks/prettier-stack/templates/base.js ./prettier.config.js
 # or
-cp ./node_modules/@premierstacks/prettier-stack/templates/full.template ./prettier.config.js
+cp ./node_modules/@premierstacks/prettier-stack/templates/full.js ./prettier.config.js
 ```
 
 **4. CLI**
